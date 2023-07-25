@@ -38,7 +38,7 @@ export default function Home() {
 					Hi, my name is Keshav Mishra, I'm a Senion ML and MLOps engineer at{" "}
 					<Link
 						target="_blank"
-						href="https://upstash.com"
+						href="https://www.mechademy.com"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						Mechademy
