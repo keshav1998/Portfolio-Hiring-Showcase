@@ -45,7 +45,7 @@ export default function Home() {
 					</Link>
 
 					<br />
-					and in free time I build my project using opensource solutions at night.
+					and in free time I build contract based and open source projects around LLM, NLP, MLOps and Predictive Analytics. I have built various solutions in health, Finance, VC and Energy Sectors, with solutions varying from simple to complex models and LLMs at scale.
 				</h2>
 			</div>
 		</div>
