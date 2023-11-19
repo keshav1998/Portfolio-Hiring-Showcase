@@ -28,14 +28,14 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-3xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-5xl md:text-8xl whitespace-nowrap bg-clip-text ">
 				EVERY CODE IS AN ENIGMA
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Keshav Mishra, I'm a Senion ML and MLOps engineer at{" "}
+					Hi, my name is Keshav Mishra, I'm a LLM engineer at{" "}
 					<Link
 						target="_blank"
 						href="https://www.mechademy.com"
@@ -45,7 +45,7 @@ export default function Home() {
 					</Link>
 
 					<br />
-					and in free time I build my project using opensource solutions at night.
+					and in free time I build contract based and open source projects around LLM, NLP, MLOps and Predictive Analytics. I have built various solutions in health, Finance, VC and Energy Sectors, with solutions varying from simple to complex models and LLMs at scale.
 				</h2>
 			</div>
 		</div>
