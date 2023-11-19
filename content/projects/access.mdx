@@ -1,21 +1,24 @@
 ---
-title: "Startup Profile Creation"
-description: A sophisticated RAG-based solution for automated profile creation. This project is designed with a focus on reducing manual entry, enhancing efficiency, and utilizing advanced technologies such as Chain of Thought Prompting and Qdrant DB for embedding storage.
+title: "Virality Predictor"
+description: A classifier designed to predict the virality of news articles based on the number of Facebook interactions. This project aims to understand sharing behavior and the factors that influence it, such as the article category, headline, and the presence of images.
 date: "2022-11-13"
 published: true
+repo: keshav1998/Virality_predictor
+inspiration: Understanding sharing behavior is big business. As consumers become blind to traditional advertising, the push is on to go beyond simple pitches to tell engaging stories. Increasingly, the success of these endeavors is measured in social shares.
   
 ---
-This project is an advanced automated solution designed to streamline the process of profile creation. It is built with a focus on reducing manual entry and enhancing efficiency. The system is designed to be fully automated and utilizes advanced technologies such as Chain of Thought Prompting and Qdrant DB for embedding storage.
+This project is a sophisticated solution designed to predict whether a given news article will go viral or not. The virality factor is determined by the number of Facebook interactions, which include shares, comments, and likes. The system is designed to go beyond simple pitches to tell engaging stories, with the success of these endeavors measured in social shares.
 
-- Fully automated
-- Structured design
-- Reduces manual entry
-- Utilizes Chain of Thought Prompting
-- Uses Qdrant DB for embedding storage
+- Predicts virality of news articles
+- Analyzes Facebook interactions
+- Understands sharing behavior
+- Uses New Category Dataset
 
 ## Project Structure
 
-The project is structured around a main component, `ProfileCreator`. This component is responsible for the creation and auto-filling of profiles. It takes as input the path to a pitch deck PDF and a website name, and outputs a fully filled profile. The system uses Qdrant quick embeddings to create embeddings out of pitch decks and text extracted from the website.
+The project is structured around a main component, `ViralityPredictor`. This component is responsible for analyzing the given news article and predicting its virality. It takes as input the article's category, headline, and the presence of images, and outputs a virality score. The system uses the New Category Dataset, which contains all the articles from Huffington Post since 2012.
+This project involves building a predictive model to determine the virality of news articles. The model uses a dataset of news articles from Huffington Post, filtered to include only articles written after 2016. Features such as engagement info (shares, interactions, comments), number of images in the article, and word statistics from the headlines are extracted. These features are then used to train machine learning models, specifically RandomForestClassifier and XGBoost. The models are evaluated based on their ability to predict whether a news article will go viral or not.
 
-![API Architecture](/Profile_creator.png)
+
+![API Architecture](/virality_prediction.png.png)
 
