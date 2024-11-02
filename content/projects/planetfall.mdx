@@ -1,15 +1,31 @@
 ---
-title: Matching Service
-description: This projects main goal is to create matching service for a client, that calculates a matching score between a startup founder and an investor. It uses OpenAI's GPT-4 model to generate the score based on various criteria such as industry, investment stage, planned raised amount, and more.
-date: "2023-10-12"
-url: https://www.sheraisescapital.com/investors/
+title: Backpack Healthcare - Chatbot for Medical Assistance and Consultation
+description: A chatbot that provides medical assistance and consultation services to users. The chatbot is designed to be user-friendly and efficient, providing accurate and relevant information to users. It is equipped with a wide range of features, including symptom checker, medication reminder, and appointment booking. The chatbot is powered by advanced LLM models and is capable of understanding and responding to user queries effectively. It is designed to be accessible to users from all walks of life, making healthcare services more convenient and accessible. It has direct access to Q&A with experts and can provide real-time feedback to users. Designed on RAG architecture, it is capable of providing accurate and reliable information to users.
+url: https://hellobackpack.com
+date: "2024-01-12"
 published: true
-  
+
 ---
 
 
-[![](/planetfall.png)](https://planetfall.io)
+[![](/backpack.png)](https://hellobackpack.com)
 
-This project provides a entralling way to generate matching score using GPT-4 and Chain of though prompting, with a RLHF pipeline that constantly helps in providign feedback from experts that helps in tuning the bot recursively and makes the scores that are being generated more dynamic and useful. We use giskard to eliminate risk of bias, hallucinations and performance issues.
+This project introduces a sophisticated chatbot that leverages Large Language Models (LLMs) and a Retrieval-Augmented Generation (RAG) pipeline to provide quick and accurate responses to user queries. The chatbot is designed to handle a wide range of tasks, including answering essential mental health questions, with robust guardrails in place to ensure user safety and data security.
 
-![API Architecture](/matching_score.png)
+### Key Features
+
+- **User Data Access**: The chatbot has access to user data, enabling it to provide quick and personalized responses to queries.
+- **Mental Health Support**: It can answer essential mental health questions, offering support and guidance to users in need.
+- **Guardrails Implementation**: To ensure the safety and security of users, the chatbot has implemented strict guardrails.
+- **Role-Based Access Control (RLS)**: From a security perspective, Row level security (RLS) has been implemented for each user, ensuring that data access is appropriately restricted.
+- **Availability**: The chatbot is available to both new users (before registration) and existing users (after logging in).
+
+### Advanced Technology
+
+- **LLMs and RAG Pipeline**: The chatbot uses advanced LLMs and a RAG pipeline to generate accurate and relevant responses.
+- **Expert Feedback Loop**: A Reinforcement Learning from Human Feedback (RLHF) pipeline is in place, allowing experts to provide feedback that continuously tunes and improves the chatbot's performance.
+- **Bias and Performance Management**: Tools like Giskard are used to eliminate risks of bias, hallucinations, and performance issues, ensuring reliable and fair interactions.
+
+This comprehensive approach makes the chatbot a valuable tool for providing accessible and secure healthcare services to users.
+
+![API Architecture](/chatbot.png)
